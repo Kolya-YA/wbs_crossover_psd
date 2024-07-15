@@ -11,13 +11,13 @@ export default function OurCycle() {
         <p className="text-center mt-4">
           It is a long established fact that a reader will be distracted by the
         </p>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Cycle 1 */}
           <div>
             <img src={cycle1} alt="" width="90%" className="lg:-mt-12" />
           </div>
           <div className="content-center lg:-mt-20 lg:pl-20">
-            <p class="text-divider text-3xl font-bold mr-4">Cycles</p>
+            <p className="text-divider text-3xl font-bold mr-4">Cycles</p>
             <p className="text-left my-16">
               It is a long established fact that a reader will be distracted by
               the readable content of a page when looking at its layout. The
@@ -36,7 +36,7 @@ export default function OurCycle() {
           </div>
           {/* Cycle 2 */}
           <div className="content-center lg:-mt-20 lg:pr-20">
-            <p class="text-divider text-3xl font-bold mr-4 mt-10">
+            <p className="text-divider text-3xl font-bold mr-4 mt-10">
               Stylis Cycle
             </p>
             <p className="text-left my-16">
@@ -63,7 +63,7 @@ export default function OurCycle() {
             <img src={cycle3} alt="" width="90%" className="lg:-mt-[120px]" />
           </div>
           <div className="content-center lg:-mt-20 lg:pl-20">
-            <p class="text-divider text-3xl font-bold">Mordern Cycle</p>
+            <p className="text-divider text-3xl font-bold">Mordern Cycle</p>
             <p className="text-left my-16">
               It is a long established fact that a reader will be distracted by
               the readable content of a page when looking at its layout. The
