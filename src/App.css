@@ -1,4 +1,4 @@
-/* erika */
+
 
 .text-divider {
   display: flex;
@@ -16,3 +16,4 @@
 .text-divider::before {
   margin-right: var(--text-divider-gap);
 }
+
