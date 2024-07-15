@@ -2,7 +2,7 @@ import customer from "../assets/customer.png";
 
 const Customers = () => {
   return (
-    <div className="grid place-content-center max-w-7xl border-2 border-dashed border-gray-200 m-20 ">
+    <div className="grid place-content-center max-w-7xl border-2 border-dashed border-gray-200 container m-auto my-20">
       <h1 className="text-center  mt-10 text-5xl font-bold">Says Customers</h1>
       <div className="m-16 p-12 bg-white overflow-hidden shadow-[0px_0px_90px_#f2f2f2] rounded-lg flex items-center sm:flex-wr">
         <img className="" src={customer} alt="customer" />

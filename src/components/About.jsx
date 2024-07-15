@@ -24,6 +24,11 @@ export default function About() {
       <div className="m-auto w-1/2 content-center">
         <img src={bikeAbout} alt="" className="-mt-[400px] px-10" />
       </div>
+      <div className="grid place-content-center mt-10">
+        <button className="px-16 py-2 bg-[#f7c17b] text-white font-bold text-xl">
+          Read More
+        </button>
+      </div>
     </>
   );
 }
