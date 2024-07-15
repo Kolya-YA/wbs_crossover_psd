@@ -1,8 +1,12 @@
+import OurCycle from "./OurCycle";
+import ContactForm from "./ContactForm";
+
 const Main = () => {
 
     return (
-        <main className="grid place-content-center">
-            Main 
+        <main>
+            <OurCycle />
+            <ContactForm />
         </main>
     )
 }
