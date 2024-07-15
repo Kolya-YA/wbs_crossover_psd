@@ -1,8 +1,12 @@
+import Copyright from "./Copyright";
+import FooterContact from "./FooterContact";
+
 const Footer = () => {
 
     return (
-        <footer className="p-8 bg-gray-200">
-            Footer
+        <footer>
+            <FooterContact />
+            <Copyright />
         </footer>
     )
 }
