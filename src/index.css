@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.hero-section {
+  position: relative; 
+  height: 600px; 
+  background-image: url('./assets/hero-bike.png'),url('./assets/hero-bg.png');
+  background-position: center center, right center; 
+  background-repeat: no-repeat; 
+  background-size: 56.67% auto, 73.33% auto; 
+}
+
