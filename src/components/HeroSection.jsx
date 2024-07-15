@@ -8,7 +8,6 @@ const HeroSection = () => {
         <div className="hero-content text-right">
           <div className="mt-24">
             {" "}
-            {/* Adjust margin-top to move text higher */}
             <h1 className="hero-title text-4xl font-bold mb-4 text-center md:text-right">
               New Model Cycle
             </h1>
