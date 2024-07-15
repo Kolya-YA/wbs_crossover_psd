@@ -1,3 +1,50 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.hero-section {
+  position: relative;
+  height: 600px;
+  background-image: url('./assets/hero-bike.png'), url('./assets/hero-bg.png');
+  background-position: center center, right center;
+  background-repeat: no-repeat;
+  background-size: 56.67% auto, 73.33% auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+
+.hero-title {
+  font-size: 3em; 
+  margin-bottom: 20px; 
+}
+
+.hero-subtitle {
+  font-size: 1.2em; 
+  max-width: 80%; 
+  margin: 0 auto 30px; 
+}
+
+.shop-now-button {
+  background-color: orange;
+  color: white;
+  font-size: 1.2em; 
+  padding: 10px 20px; 
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.shop-now-button:hover {
+  background-color: darkorange; 
+}
+
+
