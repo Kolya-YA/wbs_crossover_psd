@@ -7,13 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-  main: '#355764'
-      }
-    },
-  },
-  plugins: [],
-}
-      colors: {
+        main: '#355764',
         transparent: 'transparent',
         current: 'currentColor',
         bp: {
@@ -22,8 +16,9 @@ export default {
           darktext: '#292929',
           lighttext: '#ffffff'
         },
-      },
+      }
     },
-    plugins: [],
-  }
+  },
+  plugins: [],
 }
+  

@@ -1,13 +1,16 @@
 import OurCycle from "./OurCycle";
 import ContactForm from "./ContactForm";
-import HeroSection2 from "./HeroSection2";
+
+import Customers from "./Customers"
+import News from "./News"
 
 const Main = () => {
 
     return (
         <main>
-            <HeroSection2 />
             <OurCycle />
+            <Customers className='container' />
+            <News className='container' />
             <ContactForm />
         </main>
     )

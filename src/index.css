@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .hero-section {
   position: relative;
   height: 600px;
@@ -14,7 +13,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 0; 
+  margin-top: 0;
   padding-top: 0;
 }
 
@@ -25,28 +24,26 @@
 }
 
 .hero-title {
-  font-size: 3em; 
-  margin-bottom: 20px; 
+  font-size: 3em;
+  margin-bottom: 20px;
 }
 
 .hero-subtitle {
-  font-size: 1.2em; 
-  max-width: 80%; 
-  margin: 0 auto 30px; 
+  font-size: 1.2em;
+  max-width: 80%;
+  margin: 0 auto 30px;
 }
 
 .shop-now-button {
   background-color: orange;
   color: white;
-  font-size: 1.2em; 
-  padding: 10px 20px; 
+  font-size: 1.2em;
+  padding: 10px 20px;
   border: none;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .shop-now-button:hover {
-  background-color: darkorange; 
+  background-color: darkorange;
 }
-
-
