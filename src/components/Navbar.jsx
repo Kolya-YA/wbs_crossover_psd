@@ -38,6 +38,9 @@ const Navbar = () => {
             <FiShoppingCart />
           </a>
           <a href="#" className="nav-link">
+            <FiSearch />
+          </a>
+          <a href="#" className="nav-link">
             <FiMenu />
           </a>
         </div>
