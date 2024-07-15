@@ -1,4 +1,4 @@
-import React from "react";
+
 import customer from "../assets/customer.png"
 
 const Customers =() => {
@@ -10,7 +10,7 @@ const Customers =() => {
             <img className="" src={customer} alt="customer" />
             <div className="ml-14">
 
-            <p className="text-7xl font-serif text-orange-300">"</p>
+            <p className="text-7xl font-serif text-orange-300">{`"`}</p>
             <p className="mb-8">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
             <p className="font-bold">Channery</p>
             </div>
