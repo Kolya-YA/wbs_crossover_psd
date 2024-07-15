@@ -9,8 +9,7 @@ const HeroSection = () => {
         style={{
           backgroundImage: `url('./assets/hero-bike.png'), url('./assets/hero-bg.png')`,
         }}
-      >
-      </div>
+      ></div>
       <div className="container mx-auto h-full flex justify-center items-center text-white relative z-10">
         <div className="hero-content text-center">
           <h1 className="hero-title text-4xl font-bold mb-4">
