@@ -1,11 +1,12 @@
-import React, { useState } from "react";
-import { FiSearch, FiShoppingCart, FiHome, FiMenu } from "react-icons/fi";
-import { MdClose } from "react-icons/md";
+
+
 
 const Navbar = () => {
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
   return (
+
+    <nav className="bg-blue-800 text-white p-4">
+      
+
     <nav className="border-b border-gray-200">
       <div className="container mx-auto flex justify-between items-center py-4">
         <div className="flex items-center">
