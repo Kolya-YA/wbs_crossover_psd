@@ -6,13 +6,12 @@ const FormInput = ({ type, label }) => {
             {
                 type === 'textarea'
                     ?
-                    <textarea placeholder={label}
+                    <textarea placeholder={label} required rows="4"
                         className="block min-w-full rounded-lg py-2 px-4 resize-y placeholder:text-sm placeholder:text-bp-darktext"
                     >
                     </textarea>
                     :
-                    <input type={type} placeholder={label}
-                        
+                    <input type={type} placeholder={label} required                    
                         className="block min-w-full rounded-lg py-2 px-4 placeholder:text-sm placeholder:text-bp-darktext"
                     >
                     </input>
