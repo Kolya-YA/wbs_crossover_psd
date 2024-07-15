@@ -1,12 +1,6 @@
 import { FiMail, FiMapPin, FiPhoneCall } from "react-icons/fi"
 
-const FooterAddress = () => {
-
-    const address = [
-        "Weiskopffstraße 16 / 17",
-        "12459 Berlin",
-        "Germany"
-    ]
+const FooterAddress = ({ address }) => {
 
     return (
         <div className="grid gap-2">
