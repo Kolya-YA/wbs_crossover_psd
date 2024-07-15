@@ -10,7 +10,7 @@ function App() {
   return (
     <>
     <Navbar/>
-    <HeroSection/>
+    <HeroSection />
       <Header />
       <Main />
       <Footer />
