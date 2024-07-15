@@ -6,7 +6,7 @@ import "../App.css";
 export default function OurCycle() {
   return (
     <>
-      <div className="container py-16 px-12 lg:px-0">
+      <div className="container m-auto py-16 px-12 lg:px-0">
         <p className="text-center text-4xl font-bold">OUR CYCLE</p>
         <p className="text-center mt-4">
           It is a long established fact that a reader will be distracted by the
