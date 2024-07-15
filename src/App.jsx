@@ -9,7 +9,6 @@ function App() {
     <>
       <Navbar />
       <HeroSection />
-      {/* <Header /> */}
       <Main />
       <Footer />
     </>
