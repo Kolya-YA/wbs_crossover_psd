@@ -1,15 +1,16 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { FiSearch, FiShoppingCart, FiHome, FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
+import logo from "../assets/icons/logo.png";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-blue-800 text-white p-4">
+    <nav className=" #274d5a p-4">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-xl font-bold">
-          <a href="#">Logo</a>
+          <img src={logo} alt="logo" />
         </div>
         <div className="hidden md:flex space-x-6 items-center">
           <a href="#" className="hover:text-gray-300">
